@@ -173,6 +173,7 @@ function index_logs ($esUrl, $esIndex, $docType, $docId, $logs, $nextUri = null)
 
 
 echo "Fetching messages sent on: $logDate \n";
+echo "Writing logs to : $elasticSearchUrl/$esIndex\n";
 
 $logs = twilio_get($twilioMessageUri, ['DateSent' => $logDate]);
 
