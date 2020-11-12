@@ -8,3 +8,5 @@ template to http://localhost:9200/_template/twilio-logs.
     [optional] --sentdate: defaults to -1 day
     --twiliosid: Twilio Account SID
     --twiliotoken: Twilio Token
+---
+php -S 127.0.0.1:8080
